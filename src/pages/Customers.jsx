@@ -14,7 +14,7 @@ const Customers = () => {
         <Header category="Page" title="Customers" />
         <GridComponent
         dataSource={customersData}
-        
+        enableHover={false}
         allowPaging
         pageSettings={{ pageCount: 5 }}
         selectionSettings={selectionsettings}
